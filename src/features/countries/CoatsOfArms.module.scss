@@ -1,0 +1,37 @@
+.container  {
+    // position: relative;
+    box-sizing: border-box;
+    width: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    // &:has(img) {
+    //     border: 1px solid black;
+    // }
+    .cell {
+        width: 50px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1px;
+        background-color: #ffffff;
+        // border: 1px solid #aaa;
+        img {
+            height: 30px;
+            cursor: pointer;
+        }
+        &:has(img) {
+            border: 1px solid black;
+        }
+    }
+}
+
+.tooltip {
+    position: fixed;
+    background-color: rgb(231, 228, 39);
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: white;
+}

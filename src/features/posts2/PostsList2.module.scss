@@ -1,0 +1,39 @@
+.main {
+    font-size: 1rem;
+    // h2 {
+    //     text-align: center;
+    // }
+    & article {
+        background-color: rgb(236, 236, 174);
+        border: 1px solid rgb(85, 85, 5);
+        margin-top: 15px;
+        border-radius: 15px;
+        padding-left: 10px;
+    }
+    .postCredit {
+        a {
+            margin-right: 5px;
+            color: rgb(26, 190, 169);
+        }
+        .postAuthor {
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: rgb(6, 89, 214);
+        }
+        .timeAgo{
+            color: rgb(250, 6, 38);
+        }
+    }
+    .reactionButton {
+        background-color: rgb(240, 234, 171);
+        border: 0;
+        color: black;
+    }
+    .excerptArticle h2 {
+        font-size: 1.2rem;
+    }
+    .excerpt {
+        // font-size: 2rem;
+        color: rgb(2, 121, 28);
+    }
+}

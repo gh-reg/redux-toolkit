@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+main.myTodos {
+  margin: auto;
+  max-width: 600px;
 
 body {
   font-family: 'Nunito', sans-serif;
@@ -9,10 +12,10 @@ input[type="text"], button {
   font: inherit;
 }
 
-main {
-  margin: auto;
-  max-width: 600px;
-}
+// main {
+//   margin: auto;
+//   max-width: 600px;
+// }
 
 h1 {
   margin-bottom: 0.5rem;
@@ -69,7 +72,7 @@ form label {
   left: -10000px;
 }
 
-.new-todo {
+.newTodo {
   width: 100%;
   padding-right: 30px;
 }
@@ -88,4 +91,5 @@ input[type="text"] {
 
 .submit:focus, .submit:hover {
   background-color: limegreen;
+}
 }
